@@ -1,1 +1,5 @@
-
+Calculator 
+this code is a simple calculator that can add, subtract, multiply and divide 
+when this code is ran it displays a list of what you can do add, subtract, multiply and divide
+when you select one of these to use using via 1 - 4 you can use the two numbers you would like to proccess
+then it will display the answer to your question
