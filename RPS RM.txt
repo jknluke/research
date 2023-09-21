@@ -8,4 +8,5 @@ rock beats scissors
 scissors beats paper
 paper beats rock 
 this is the game of rock paper scissors 
-if you win there will be 
+if you win it will display you win! if you lose it will display you lose!
+then it will ask you if you want to play again y -yes n - no
