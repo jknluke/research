@@ -1,0 +1,34 @@
+ReadME - Instructions to use tickiting system code
+To run the code simpily open the Main.py file into visual studio code then press run at the top window, please do not change
+any of the code 
+ When you run the code in the terminal there will be text displayed
+ that text will ask you what would you like to do, from there you have five options to pick from using the assigned letter
+ if you do not pick any of those choices the code will loop with a warning letting you know that you will
+ need to pick from one of the five options, First option you have C - Create new ticket, Second is D - Display a Ticket,
+ Third is R - Respond to a Ticket, Fourth is A - Display all created and precreated tickets,
+and last is E - To exit the code loop. These each should open into different menus where you will be able to
+carry out the designated function.
+
+C - Create a ticket 
+      This function allows you to create a new ticket using the name of the ticket creator,
+      staff ID, email address, and the description of the issue. These tickets will then be given a ticket number that will
+      be assigned and can be viewed when using the (D)isplay function. upon creation these tickets will have no response,
+      and will aslo have a open ticket status.
+
+D - Display a ticket 
+     This function will give you a question asking which tickey number you would like to view, when you put the Ticket
+     number into the input and enter, the ticket that matches the ticket number you had entered will display on the screen
+     There is also otherways of displaying all the tickets but that is using another function.
+
+R - Respond to a ticket 
+    This function allows you to repsond to a ticket with what ever text you enter, the tickets with the the job description
+    as (password change) will have a automatic generated password allowing the response not to be needed when the job is
+    password. You are able to change these response when ever you want.
+
+A - Show All tickets 
+    This function is similar to the display a ticket, but this will display every ticket made and every precreated ticket
+    These will all be showed in a line showing a clear gap inbetween allowing for easy reading
+
+E - Exit the Program, This command is very self obvious when you want to exit the loop (stop the code from looping in terminal)
+
+From these commands you will be able to create, display, respond and, change tickets in a ticketing system.
