@@ -1,3 +1,11 @@
 How to run rock, paper, scissors code
 Run the code in the terminal
-when the code is run you will be prompt with a question saying would you like to 
+when the code is run you will be prompt with a question saying "enter a choice rock, paper or scissors" 
+from that list you will pick one of the listed prompt to play a game of rock paper scissors 
+the computer will randomly generate a word from the prompts to verse you 
+the game of rock paper scissors is easy 
+rock beats scissors 
+scissors beats paper
+paper beats rock 
+this is the game of rock paper scissors 
+if you win there will be 
