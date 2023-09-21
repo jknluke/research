@@ -1,1 +1,3 @@
-
+How to run rock, paper, scissors code
+Run the code in the terminal
+when the code is run you will be prompt with a question saying would you like to 
