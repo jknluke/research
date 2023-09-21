@@ -1,6 +1,6 @@
 class Ticket :
     counter = 2000
-    
+    # this is the ticket class to make the fields of a ticket 
     def __init__(self, creator_name, staff_ID, email, description):
         self.ticket_num = Ticket.counter + 1
         Ticket.counter+=1
@@ -16,7 +16,7 @@ class Ticket :
             self.response = f"New password generated: {generate_password}"
             self.status = "Closed"
 
-
+#this is to display the ticket fields
 def All_Tickets() :
     for t in ticket_list:
         print(f"Ticket Number: {t.ticket_num}")
@@ -42,7 +42,7 @@ def Display_Ticket(ticket_num) :
             print(f"Response: {t.response}")
             print(f"Ticket Status: {t.status}")
 
-
+# respond ticket function / stuff for response to a ticket
 def Respond(ticket_num) :
     for t in ticket_list:
         if t.ticket_num == int(ticket_num):
@@ -71,7 +71,7 @@ def Create() :
     ticket_list.append(new_ticket)
     Display_Ticket(new_ticket.ticket_num) # - Change to Show_Statistics() method
 
-
+#this is the premade ticket for the ticket system
 ticket_list = []
 ticket1 = Ticket("Inna", "INNAM", "inna@whitecliffe.co.nz", "My monitor stopped working")
 ticket_list.append(ticket1)
@@ -83,7 +83,7 @@ ticket3 = Ticket("John", "JOHNS", "john@whitecliffe.co.nz", "Password change")
 ticket_list.append(ticket3)
 
 user_prompt = ""
-
+#this was the display of the beggining of the code, what do you want to do
 def main() :
     user_prompt = ""
     while user_prompt.lower() != "e":
@@ -94,7 +94,7 @@ def main() :
                             "\n Show (A)ll Tickets"
                             " \n (E)xit the program "
                             "\n > ")
-
+#this was to give commands to operate the code
         if user_prompt.lower() == "c":
             Create()
         elif user_prompt.lower() == "d":
